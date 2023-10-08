@@ -30,3 +30,32 @@
     background: url('../img/email.svg') no-repeat;
     padding-left: 2em;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+        gap: 1em;
+    }
+    
+    .contato__descricao, .contato__email {
+        width: 30%;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 25vw;
+        gap: 1em;
+    }
+
+    .contato__descricao, .contato__email {
+        width: 60%;
+    }
+}
